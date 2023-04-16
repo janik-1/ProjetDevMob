@@ -1,0 +1,66 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Match Tracker</string>
+
+
+    <string name="nav_header_title">User Name</string>
+    <string name="nav_header_subtitle">user@example.com</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_logout">Logout</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_about">About</string>>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_matches">Matches</string>
+    <string name="nav_location">Location</string>
+    <string name="nav_take_photo">Take Photo</string>
+    <string name="nav_local_stats">Local Stats</string>
+    <string name="nav_remote_stats">Remote Stats</string>
+    <string name="nav_about">About</string>
+
+    <!-- Match Form -->
+    <string name="match_form_title">New Match</string>
+    <string name="match_form_date">Date</string>
+    <string name="match_form_time">Time</string>
+    <string name="match_form_location">Location</string>
+    <string name="match_form_team_a">Team A</string>
+    <string name="match_form_team_b">Team B</string>
+    <string name="match_form_score_a">Score A</string>
+    <string name="match_form_score_b">Score B</string>
+    <string name="match_form_save">Save</string>
+    <string name="match_form_cancel">Cancel</string>
+
+    <!-- Match List -->
+    <string name="match_list_title">Matches</string>
+
+    <!-- Location Form -->
+    <string name="location_form_title">Location</string>
+    <string name="location_form_latitude">Latitude</string>
+    <string name="location_form_longitude">Longitude</string>
+    <string name="location_form_address">Address</string>
+    <string name="location_form_find_location">Find Location</string>
+
+
+
+    <!-- Local Stats -->
+    <string name="local_stats_title">Local Stats</string>
+
+    <!-- Remote Stats -->
+    <string name="remote_stats_title">Remote Stats</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version</string>
+    <string name="about_author">Author</string>
+    <string name="about_description">Match Tracker is an app to track matches and their statistics.</string>
+
+    <string name="home_description">Welcome sur la page home</string>
+    <string name="statistics">Stat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_save_stats">Save stats</string>
+
+
+</resources>

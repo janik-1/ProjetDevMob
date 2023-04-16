@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:title="@string/nav_location" />
+        <item
+            android:id="@+id/nav_take_photo"
+            android:title="@string/nav_take_photo" />
+        <item
+            android:id="@+id/nav_local_stats"
+            android:title="@string/nav_local_stats" />
+        <item
+            android:id="@+id/nav_remote_stats"
+            android:title="@string/nav_remote_stats" />
+
+        <item
+            android:id="@+id/nav_save_stats"
+            android:title="@string/nav_save_stats" />
+
+    </group>
+    <item android:title="@string/nav_about">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/about_title" />
+        </menu>
+    </item>
+</menu>

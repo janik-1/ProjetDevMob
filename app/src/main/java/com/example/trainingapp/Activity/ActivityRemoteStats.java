@@ -46,7 +46,7 @@ public class ActivityRemoteStats extends AppCompatActivity {
             public void run() {
 
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "admin95");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "password");
 
                     String sql = "SELECT * FROM Matchs";
                     PreparedStatement statement = connection.prepareStatement(sql);
@@ -93,7 +93,7 @@ public class ActivityRemoteStats extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "admin95");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "password");
 
                     String sql = "SELECT * FROM Statistiques WHERE MatchId=?";
                     PreparedStatement statement = connection.prepareStatement(sql);

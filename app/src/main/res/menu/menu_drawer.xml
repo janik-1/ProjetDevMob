@@ -22,7 +22,7 @@
     <item android:title="@string/nav_about">
         <menu>
             <item
-                android:id="@+id/nav_language"
+                android:id="@+id/nav_about"
                 android:title="@string/about_title" />
         </menu>
     </item>

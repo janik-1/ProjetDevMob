@@ -45,7 +45,7 @@ public class ActivityLogin extends AppCompatActivity {
                         Intent intent = new Intent(ActivityLogin.this, ActivityHome.class);
 
                          startActivity(intent);
-                   // System.out.println("ok");
+                    System.out.println("ok");
                 } else {
                     // Invalid login
                     Toast.makeText(ActivityLogin.this, "Invalid username or password", Toast.LENGTH_SHORT).show();

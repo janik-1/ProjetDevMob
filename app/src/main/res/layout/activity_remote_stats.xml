@@ -12,7 +12,7 @@
         android:id="@+id/text_view_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/selectmatch"
+        android:text="Select a match"
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingBottom="16dp"/>

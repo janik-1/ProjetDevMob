@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">Suivi des matchs français</string>
+    <!-- Tiroir de navigation -->
+    <string name="nav_matches">Matchs</string>
+    <string name="nav_location">Emplacement</string>
+    <string name="nav_take_photo">Prendre une photo</string>
+    <string name="nav_local_stats">Statistiques locales</string>
+    <string name="nav_remote_stats">Statistiques à distance</string>
+    <string name="nav_about">Langue</string>
+    <string name="nav_save_stats">Enregistrer les statistiques</string>
+    <string name="about_title">English</string>
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Fermer</string>
+    <string name="last_match">Derniers matchs</string>
+    <string name="see_all_matchs">Tous les matchs</string>
+    <string name="selectmatch">Sélectionnez un match</string>
+    <string name="TakePictureButton">Prendre une photo</string>
+    <string name="TakePictureInfo">Cliquez ici pour prendre une photo !</string>
+    <string name="text_stat">Remplissez le formulaire avec les statistiques du match</string>
+    <string name="goals">Buts marqués</string>
+    <string name="goals_conceded">Buts encaissés</string>
+    <string name="Possession">Possession</string>
+    <string name="Tirs">Tirs</string>
+    <string name="ShotsGoals">Tirs cadrés</string>
+    <string name="Save">Enregistrer le formulaire</string>
+</resources>

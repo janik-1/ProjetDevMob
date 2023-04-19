@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saisir les statistiques du match" />
+        android:text="@string/text_stat" />
 
     <TextView
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buts marqués" />
+        android:text="@string/goals" />
 
     <EditText
         android:id="@+id/edittext_buts_marques"
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buts encaissés" />
+        android:text="@string/goals_conceded" />
 
     <EditText
         android:id="@+id/edittext_buts_encaisses"
@@ -44,7 +44,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Possession" />
+        android:text="@string/Possession" />
 
     <EditText
         android:id="@+id/edittext_possession"
@@ -55,7 +55,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tirs" />
+        android:text="@string/Tirs" />
 
     <EditText
         android:id="@+id/edittext_tirs"
@@ -66,7 +66,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tirs cadrés" />
+        android:text="@string/ShotsGoals" />
 
     <EditText
         android:id="@+id/edittext_tirs_cadres"
@@ -78,6 +78,6 @@
         android:id="@+id/button_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enregistrer" />
+        android:text="@string/Save" />
 
 </LinearLayout>

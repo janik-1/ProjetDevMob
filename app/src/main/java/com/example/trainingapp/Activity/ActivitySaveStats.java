@@ -62,7 +62,7 @@ public class ActivitySaveStats extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "admin95");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "password");
                     String sql = "SELECT * FROM Matchs";
                     PreparedStatement statement = connection.prepareStatement(sql);
                     ResultSet resultSet = statement.executeQuery();
@@ -118,7 +118,7 @@ public class ActivitySaveStats extends AppCompatActivity {
                     @Override
                     public void run() {
                         try {
-                            Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "admin95");
+                            Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "password");
                             String sql = "INSERT INTO Statistiques (MatchId, ButsMarques, ButsEncaisses, Possession, Tirs, TirsCadres) " +
                                     "VALUES (?, ?, ?, ?, ?, ?)";
                             PreparedStatement statement = connection.prepareStatement(sql);

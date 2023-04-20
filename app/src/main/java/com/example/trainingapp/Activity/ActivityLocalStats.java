@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -86,6 +87,15 @@ public class ActivityLocalStats extends AppCompatActivity {
             }
 
         }
+
+        @SuppressLint("WrongViewCast") Button retourButton = findViewById(R.id.retour_button);
+        retourButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ActivityLocalStats.this, ActivityHome.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

@@ -50,7 +50,7 @@ public class ActivityLocation extends FragmentActivity {
             @Override
             public void run() {
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "admin95");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://10.0.2.2:3306/trainingapp", "root", "password");
                     String sql = "SELECT * FROM Matchs";
                     PreparedStatement statement = connection.prepareStatement(sql);
                     ResultSet resultSet = statement.executeQuery();
